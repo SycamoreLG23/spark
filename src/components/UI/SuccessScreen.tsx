@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import logo from "../../assets/Logo.svg";
 import { SiMinutemailer } from "react-icons/si";

@@ -1,4 +1,3 @@
-import React from "react";
 import { FcGoogle } from "react-icons/fc";
 type Props = {
   text: string;

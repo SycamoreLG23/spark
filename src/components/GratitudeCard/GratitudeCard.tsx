@@ -1,7 +1,6 @@
 import { formatDistanceToNow } from "date-fns";
 import React, { useEffect, useRef, useState } from "react";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
-import Modal from "../UI/Modal";
 
 type Props = {
   time: Date;
@@ -9,7 +8,7 @@ type Props = {
   selectedItem: string | null;
   setSelectedItem: (item: string | null) => void;
   onDelete: () => void;
-};
+}
 
 const GratitudeCard: React.FC<Props> = ({
   text,

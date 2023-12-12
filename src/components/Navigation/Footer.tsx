@@ -1,4 +1,3 @@
-import React from "react";
 import { BiHealth } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";

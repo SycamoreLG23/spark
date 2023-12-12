@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import  { ReactNode } from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 type Props = {

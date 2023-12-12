@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { gratitudeVerses } from "../util/gratitudeVerses";
 import { FaQuoteLeft } from "react-icons/fa";
 import { IoMdArrowRoundBack } from "react-icons/io";
