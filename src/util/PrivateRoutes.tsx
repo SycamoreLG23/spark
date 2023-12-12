@@ -2,7 +2,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 import HomePage from "../pages/HomePage";
 import Navbar from "../components/Navigation/Navbar";
-import Footer from "../components/Navigation/Footer";
 import Entry from "../pages/Entry";
 import RandomBlessing from "../pages/RandomBlessing";
 import Gratitude from "../pages/Gratitude";
