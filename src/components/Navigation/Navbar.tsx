@@ -17,12 +17,7 @@ const Navbar = () => {
     auth.signOut();
   };
 
-  // active Navlink Style
-  const activeClassName = "pb-[5px] border-b-[3px] border-b-black";
 
-  // inactive Navlink Style
-  const navStyle =
-    " pb-2  border-b-2 border-transparent  link-underline link-underline-black ";
   return (
     <>
       <Sidebar

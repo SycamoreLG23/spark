@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer

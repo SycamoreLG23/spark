@@ -21,7 +21,7 @@ import Modal from "../components/UI/Modal";
 type GratitudeEntry = {
   id: string;
   entry: string;
-  timestamp: string;
+  timestamp: Date;
 };
 
 const Gratitude = () => {
@@ -108,12 +108,12 @@ const Gratitude = () => {
             </p>
           ) : (
             <ul className="flex flex-col gap-3 md:gap-6 mt-4">
-              {gratitudeEntries.map((entry) => (
+              {gratitudeEntries.map((entry,index) => (
                 <GratitudeCard
                   selectedItem={selectedItem}
                   text={entry.entry}
                   time={entry.timestamp}
-                  key={entry.timestamp}
+                  key={index}
                   setSelectedItem={(item) => setSelectedItem(item)}
                   onDelete={() => handleDeleteEntry(entry.id)}
                 />
