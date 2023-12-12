@@ -19,7 +19,7 @@ export const PrivateRoutes = () => {
           <Route path="spark/gratitude" element={<Gratitude />} />
           <Route path="spark/spark" element={<Spark />} />
 
-          <Route path="*" element={<Navigate to="/spark/" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
       {/* <Footer /> */}
