@@ -16,7 +16,7 @@ import bgImg from "../../assets/simon-maage-KTzZVDjUsXw-unsplash.jpg";
 import { AuthContext } from "../../util/AuthContext";
 
 const SignUp = () => {
-  // Error
+
 
   const [showError, setShowError] = useState<null | string>(null);
   const [loading, setLoading] = useState(false);
@@ -178,7 +178,7 @@ const SignUp = () => {
             <span className="flex-shrink mx-4 text-sm text-gray-400">OR</span>
             <div className="flex-grow border-t border-gray-400"></div>
           </div>
-          <SecondaryButton onClick={googleLogin} text="Sign in with Google" />
+          <SecondaryButton onClick={googleLogin} text="Sign up with Google" />
         </div>
       </div>
       {showError && (
