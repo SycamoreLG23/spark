@@ -12,7 +12,7 @@ const SuccessScreen = (props: Props) => {
   return (
     <div className="  w-[95%] mx-auto py-6 h-full min-h-screen grid grid-rows-[auto_1fr] ">
       <header className=" mb-8 ">
-        <Link className="flex justify-start items-center gap-x-2" to="/">
+        <Link className="flex justify-start items-center gap-x-2" to="/spark/">
           <img src={logo} className="h-10" alt="spark-logo" />
           <h1 className="text-lg md:text-xl font-bold">SPARK</h1>
         </Link>

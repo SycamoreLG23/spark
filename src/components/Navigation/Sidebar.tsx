@@ -24,7 +24,7 @@ const Sidebar = (props: Props) => {
             <header
               className={!props.open ? "hidden" : "block text-white ml-7"}
             >
-              <Link className="flex justify-start items-center gap-x-2" to="/">
+              <Link className="flex justify-start items-center gap-x-2" to="/spark/">
                 <img src={logo} className="h-10" alt="spark-logo" />
                 <h1 className="text-lg md:text-xl font-bold">SPARK</h1>
               </Link>

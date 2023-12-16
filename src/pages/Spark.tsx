@@ -29,10 +29,12 @@ Despite distractions, He's always near, His light of hope, forever clear. Will y
 
   return (
     <>
-          <Link to="/">
+          <Link to="/spark/">
         <IoMdArrowRoundBack className="w-5 h-5 md:ml-4 mb-4 md:h-6 md:w-6" />
       </Link>
       <div className="max-w-[600px] mx-auto relative">
+      <div className="mb-4 break-before-all">In the midst of life's challenges, this poem is a profound expression of unwavering hope and faith in Jesus. It beautifully encapsulates the promise of hope and love found in a connection with Christ.</div>
+
         <div className="w-full h-full rounded-lg p-6 px-7 md:p-8 md:px-9 bg-[#e8f2d7] relative text-[#3b5f5f]">
         <p className="font-bold mb-2">THE PROMISE OF HOPE</p>
 
@@ -40,7 +42,7 @@ Despite distractions, He's always near, His light of hope, forever clear. Will y
           <FaQuoteLeft className="absolute top-6 left-2 md:top-7 md:left-3 md:w-5 md:h-5 text-[#3b5f5f78]" />
         </div>
         <p className="mt-2 text-[0.9em]">
-          For more blessings visit{" "}
+          To learn more about the promise of hope, visit{" "}
           <a
             className="font-bold text-[#3b5f5f] link-underline link-underline-black pb-1"
             href="https://sycamore.church/"
@@ -48,7 +50,7 @@ Despite distractions, He's always near, His light of hope, forever clear. Will y
             rel="noopener noreferrer"
           >
             Sycamore Church
-          </a>
+          </a>.
         </p>
         </div>
     </>

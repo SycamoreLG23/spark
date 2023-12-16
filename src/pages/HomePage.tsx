@@ -19,27 +19,27 @@ const HomePage = () => {
       <div className="flex flex-col justify-center max-w-[400px] mx-auto gap-4 ">
         <Link
           className="text-white w-full text-center bg-[#003333] rounded-lg py-2 px-4 hover:bg-[#003333]/80 duration-500 disabled:cursor-not-allowed"
-          to="entry"
+          to="/spark/entry"
         >
           Log Gratitude
         </Link>
         <Link
           className="text-white w-full text-center bg-[#003333] rounded-lg py-2 px-4 hover:bg-[#003333]/80 duration-500 disabled:cursor-not-allowed"
-          to="gratitude"
+          to="/spark/gratitude"
         >
           View God's Faithfulness
         </Link>
         <Link
           className="text-white w-full text-center bg-[#003333] rounded-lg py-2 px-4 hover:bg-[#003333]/80 duration-500 disabled:cursor-not-allowed"
-          to="blessing"
+          to="/spark/blessing"
         >
           Random Blessing{" "}
         </Link>
         <Link
           className="text-white w-full text-center bg-[#003333] rounded-lg py-2 px-4 hover:bg-[#003333]/80 duration-500 disabled:cursor-not-allowed"
-          to="spark"
+          to="/spark/hope"
         >
-          Spark
+          Promise of Hope
         </Link>
       </div>
     </div>

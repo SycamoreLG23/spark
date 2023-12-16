@@ -57,7 +57,7 @@ const Entry = () => {
           setError(null);
           setSuccess(false);
         }}
-        to="/"
+        to="/spark/"
       >
         <IoMdArrowRoundBack className="w-5 h-5 md:ml-4 mb-4 md:h-6 md:w-6" />
       </Link>
@@ -110,7 +110,7 @@ const Entry = () => {
                 Success!{" "}
                 <Link
                   className="text-xs text-[#e9e8e8e0] underline top-[0.25rem] relative items-center mr-3 border-[#ffffff42]"
-                  to="/gratitude"
+                  to="/spark/gratitude"
                 >
                   See Gratitude
                 </Link>

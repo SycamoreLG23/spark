@@ -22,7 +22,7 @@ const AppRouter = () => {
       ) : (
         <Route path="/*" element={<PublicRoutes />} />
       )}
-      <Route path="*" element={<Navigate to="/signin" replace />} />
+      <Route path="*" element={<Navigate to="/spark/signin" replace />} />
     </>
   );
 

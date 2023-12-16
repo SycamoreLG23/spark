@@ -75,7 +75,7 @@ const SignIn = () => {
     <div className="md:grid md:grid-cols-[60%_40%] lg:grid-cols-[60%_40%] h-full">
       <div className="max-w-[600px] w-full px-6 md:px-10 mx-auto grid  h-full">
         <header className="w-fit mt-4">
-          <Link className="flex justify-start items-center gap-x-2" to="/">
+          <Link className="flex justify-start items-center gap-x-2" to="/spark/">
             <img src={logo} className="h-10" alt="spark-logo" />
             <h1 className="text-lg md:text-xl font-bold">SPARK</h1>
           </Link>
@@ -138,7 +138,7 @@ const SignIn = () => {
                         <ErrorMessage name="password" />
                       </p>
                       <Link
-                        to="/reset-password"
+                        to="/spark/reset-password"
                         className="w-fit  font-light text-sm place-self-end mt-1 hover:font-medium duration-500"
                       >
                         Forgot password?
@@ -156,7 +156,7 @@ const SignIn = () => {
                 <p className="flex items-center justify-center gap-x-1 mt-2">
                   Don't have an account?{"  "}
                   <Link
-                    to="/signup"
+                    to="/spark/signup"
                     className=" link-underline link-underline-black font-semibold"
                   >
                     Sign up

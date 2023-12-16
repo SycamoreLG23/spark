@@ -44,7 +44,7 @@ const ResetPassword = () => {
     <div className="md:grid md:grid-cols-[60%_40%] lg:grid-cols-[60%_40%] h-full">
       <div className="max-w-[600px] w-full px-6 md:px-10 mx-auto grid  h-full">
         <header className=" py-4">
-          <Link className="flex justify-start items-center gap-x-2" to="/">
+          <Link className="flex justify-start items-center gap-x-2" to="/spark/">
             <img src={logo} className="h-10" alt="spark-logo" />
             <h1 className="text-lg md:text-xl font-bold">SPARK</h1>
           </Link>
@@ -78,7 +78,7 @@ const ResetPassword = () => {
                   />
                   <Link
                     className="flex justify-center items-center gap-x-2 mt-3 md:mt-7 "
-                    to="/signin"
+                    to="/spark/signin"
                   >
                     <AiOutlineArrowLeft />
                     <span className="link-underline link-underline-black hover:font-semibold duration-700">
@@ -98,7 +98,7 @@ const ResetPassword = () => {
             </p>
             <Link
               className="flex justify-center items-center gap-x-2 mt-3 md:mt-7 "
-              to="/signin"
+              to="/spark/signin"
             >
               <AiOutlineArrowLeft />
               <span className="link-underline link-underline-black hover:font-semibold duration-700">

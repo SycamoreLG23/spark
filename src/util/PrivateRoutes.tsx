@@ -13,13 +13,13 @@ export const PrivateRoutes = () => {
       <Navbar />
       <main className="max-w-[1480px] mx-auto py-4 px-3">
         <Routes>
-          <Route path="spark/" element={<HomePage />} />
-          <Route path="spark/entry" element={<Entry />} />
-          <Route path="spark/blessing" element={<RandomBlessing />} />
-          <Route path="spark/gratitude" element={<Gratitude />} />
-          <Route path="spark/spark" element={<Spark />} />
+          <Route path="/spark/" element={<HomePage />} />
+          <Route path="/spark/entry" element={<Entry />} />
+          <Route path="/spark/blessing" element={<RandomBlessing />} />
+          <Route path="/spark/gratitude" element={<Gratitude />} />
+          <Route path="/spark/hope" element={<Spark />} />
 
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/spark/" replace />} />
         </Routes>
       </main>
       {/* <Footer /> */}

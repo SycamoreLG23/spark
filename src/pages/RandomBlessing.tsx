@@ -15,7 +15,7 @@ const RandomBlessing = () => {
   };
   return (
     <>
-      <Link to="/">
+      <Link to="/spark/">
         <IoMdArrowRoundBack className="w-5 h-5 md:ml-4 mb-4 md:h-6 md:w-6" />
       </Link>
       <div className=" max-w-[600px] mx-auto relative">

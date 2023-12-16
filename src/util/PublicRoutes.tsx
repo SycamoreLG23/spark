@@ -6,10 +6,10 @@ import ResetPassword from "../pages/Authentication/ResetPassword";
 export const PublicRoutes = () => {
   return (
     <Routes>
-      <Route path="signin" element={<SignIn />} />
-      <Route path="signup" element={<SignUp />} />
-      <Route path="reset-password" element={<ResetPassword />} />
-      <Route path="*" element={<Navigate to="/signin" replace />} />
+      <Route path="/spark/signin" element={<SignIn />} />
+      <Route path="/spark/signup" element={<SignUp />} />
+      <Route path="/spark/reset-password" element={<ResetPassword />} />
+      <Route path="*" element={<Navigate to="/spark/signin" replace />} />
     </Routes>
   );
 };

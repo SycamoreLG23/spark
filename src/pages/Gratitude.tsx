@@ -89,7 +89,7 @@ const Gratitude = () => {
   };
   return (
     <>
-      <Link onClick={() => setError(null)} to="/">
+      <Link onClick={() => setError(null)} to="/spark/">
         <IoMdArrowRoundBack className="w-5 h-5 md:ml-4 mb-4 md:h-6 md:w-6" />
       </Link>
       <div className="max-w-[600px] mx-auto  md:mt-8 grid">
@@ -125,13 +125,11 @@ const Gratitude = () => {
       {deleting && (
         <Modal bg show={deleting} onClose={() => {}}>
           {" "}
-          <Link onClick={() => setError(null)} to="/">
             <img
               src={logo}
               className="h-10 md:h-20 animate-bounce absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] "
               alt="spark-logo"
             />{" "}
-          </Link>
         </Modal>
       )}
     </>
