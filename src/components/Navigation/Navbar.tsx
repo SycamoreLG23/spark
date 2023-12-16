@@ -1,17 +1,11 @@
-import { useState } from "react";
 import logo from "../../assets/Logo.svg";
 import { Link } from "react-router-dom";
-import HamburgerMenu from "../UI/HamburgerMenu";
-import Sidebar from "./Sidebar";
+
 import { auth } from "../../firebase";
 
 const Navbar = () => {
-  const [showSideDrawer, setShowSideDrawer] = useState(false);
 
-  //   Toggle sideDrawer
-  const toggleDrawer = () => {
-    setShowSideDrawer((prev) => !prev);
-  };
+
 
   const logOutHandler = () => {
     auth.signOut();
@@ -20,11 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Sidebar
-        open={showSideDrawer}
-        toggle={toggleDrawer}
-        show={showSideDrawer}
-      />
+  
       <nav className={`sticky top-0 bg-[#f2f2f2]  w-full  h-auto z-[20]`}>
         <div className="flex justify-between items-center px-6 py-3 duration-500  max-w-[1480px] mx-auto">
           <header>
@@ -36,11 +26,10 @@ const Navbar = () => {
 
           <button
             onClick={logOutHandler}
-            className="hidden md:block text-white w-fit bg-[#003333] rounded-lg py-2 px-3 hover:bg-[#003333]/80 duration-500"
+            className=" text-white w-fit bg-[#003333] rounded-lg py-2 px-3 hover:bg-[#003333]/80 duration-500"
           >
             Sign Out
           </button>
-          <HamburgerMenu toggle={toggleDrawer} open={showSideDrawer} />
         </div>
       </nav>
     </>
