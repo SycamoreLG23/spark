@@ -34,7 +34,6 @@ const SignIn = () => {
   const googleLogin = async () => {
     try {
       const user = await signInWithPopup(auth, googleProvider);
-      console.log(user);
       if (user.user.emailVerified) {
         navigate("/");
       }

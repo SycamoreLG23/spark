@@ -14,7 +14,6 @@ import Toast from "../components/UI/Toast";
 
 const AppRouter = () => {
   const { loading, user, error, setError } = useContext(AuthContext);
-  console.log(loading);
   const routes = (
     <>
       {user && user.emailVerified ? (

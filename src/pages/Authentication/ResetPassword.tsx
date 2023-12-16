@@ -31,7 +31,6 @@ const ResetPassword = () => {
 
     try {
       const data = await resetPassword(values.email);
-      console.log(data);
       setPasswordReset(true);
     } catch (error: any) {
       setError(error.message);
