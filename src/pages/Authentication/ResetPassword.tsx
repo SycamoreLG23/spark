@@ -1,3 +1,4 @@
+/* eslint-disable no-extra-boolean-cast */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
@@ -30,8 +31,9 @@ const ResetPassword = () => {
     setLoading(true);
 
     try {
-      const data = await resetPassword(values.email);
-      setPasswordReset(true);
+       await resetPassword(values.email);
+       setPasswordReset(true)
+  
     } catch (error: any) {
       setError(error.message);
     } finally {
